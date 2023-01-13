@@ -1,0 +1,37 @@
+.email_row {
+    display: flex;
+    align-items: center;
+    color: #202124;
+    font-size: 14px;
+    line-height: 16px; 
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0 4px 4px -2px  rgba(0,0,0 , 0.24);
+    }
+    border-bottom: 1px solid #EDEFF1;
+}
+
+.email_row_options {
+    display: flex;
+    align-items:center
+}
+.email_row_title {
+    font-family: 'Roboto';
+    line-height: 16px; 
+    margin-right: 40px;
+}
+
+.email_row_message {
+    display: flex;
+    span {
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.54);
+    }
+}
+
+.email_row_time {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: 700;
+}

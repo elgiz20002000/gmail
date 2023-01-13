@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EDEFF1;
+    padding: 15px;
+    .left_item {
+        display: flex;
+        align-items: center;
+        img[alt=gmail] {
+            margin-left: 10px;
+        }
+    }
+    .middle_item {
+        padding: 0 5px;
+        display: flex;
+        align-items: center;
+        height: 46px;
+        width: 720px;
+        border-radius: 8px;
+        background: #F1F3F4;
+        input {
+            padding: 5px;
+            width: 100%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 120%;
+            color: rgba(0, 0, 0, 0.54);
+            background: #F1F3F4;
+            outline: none;
+            border:none
+        }
+    }
+
+    .right_item {
+        display: flex;
+    }
+}

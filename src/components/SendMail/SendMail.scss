@@ -1,0 +1,56 @@
+.send_mail {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    width: 40%;
+    height: 40%;
+    max-width: 400px;
+    max-height: 400px;
+    background: #424242;
+    border-radius: 8px 8px 0px 0px;
+    color:white
+    
+}
+
+.mail_header {
+    padding: 0 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    svg  {
+        color:rgba(255, 255, 255, 0.6);
+        cursor: pointer;
+    }
+}
+
+form {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    input {
+        border: none;
+        border-bottom: 1px solid whitesmoke;
+        padding: 10px 13px;
+        outline: none;
+    }
+    .message {
+        flex:1;
+        display: flex;
+        justify-content: flex-start;
+        overflow-wrap: break-word;
+    }
+    .mail_options {
+        padding: 15px;
+    }
+}
+
+.mail_error {
+    color:red;
+    text-align: right;
+    background-color: white;
+    padding: 5px;
+}

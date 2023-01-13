@@ -1,0 +1,21 @@
+.email_list {
+    flex: 1;
+    overflow: scroll;
+}
+.email_list_settings {
+    top: 0%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EDEFF1;
+}
+
+.email_list_sections {
+    display: flex;
+    border-bottom: 1px solid #EDEFF1;
+    div {
+        h4 {
+            margin-left: 15px;
+        }
+    }
+}
